@@ -170,7 +170,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   height: 100%;
-margin:0 auto; 
+  margin: 0 auto;
 }
 .order-servise-btn {
   font-weight: 500;
@@ -605,12 +605,6 @@ margin:0 auto;
   border: none;
 }
 
-/* .review-form-checkbox:checked
-  + .review-form-checkbox-label
-  > .review-form-custum-checkbox {
-  background-color: #404bbf;
-  fill: #fff; */
-
 .review-form-policy-link {
   line-height: 1.33333;
   text-decoration: underline;
@@ -627,7 +621,6 @@ margin:0 auto;
   margin-bottom: 24px;
 }
 .review-form-submit-btn {
-  /* display: flex; */
   justify-content: center;
   align-items: center;
   border-radius: 4px;
@@ -684,9 +677,6 @@ margin:0 auto;
   color: #ffffff;
 }
 .footer-input::placeholder {
-  /* font-size: 12px;
-  line-height: 2;
-  letter-spacing: 0.04em; */
   color: #fff;
 }
 .form-footer {
