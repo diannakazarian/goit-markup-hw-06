@@ -715,7 +715,7 @@ button {
     flex-wrap: wrap;
     align-items: baseline;
     justify-content: flex-start;
-    margin-left: 108px;
+    padding-left: 108px;
   }
 }
 
@@ -918,9 +918,9 @@ button {
     flex-wrap: wrap;
     align-items: baseline;
     justify-content: flex-start;
-    margin-left: 108px;
-
-    padding: 0;
+    margin: 0 auto;
+    padding-left: 108px;
+    padding-right: 108px;
     row-gap: 72px;
     column-gap: 24px;
   }
