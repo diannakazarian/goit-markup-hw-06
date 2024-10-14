@@ -573,6 +573,7 @@ button {
   flex-direction: column;
   gap: 72px;
   justify-content: center;
+  align-items: center;
   text-transform: capitalize;
 }
 .text-team-container {
