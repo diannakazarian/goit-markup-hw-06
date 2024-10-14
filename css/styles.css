@@ -907,64 +907,67 @@ button {
     padding-left: 108px;
     padding-right: 108px;
   }
-  .footer-icons {
-    margin: 0;
-  }
-  .subscribe-container {
-    flex-direction: row;
-    gap: 24px;
-  }
-  .logo-footer {
-    display: block;
-    text-align: left;
-  }
-  .footer-icons-text {
-    text-align: left;
-  }
-  .form-footer-label {
-    text-align: left;
-  }
+}
+.footer-icons {
+  margin: 0;
+}
+.subscribe-container {
+  flex-direction: row;
+  gap: 24px;
+}
+.logo-footer {
+  display: block;
+  text-align: left;
+}
+.footer-icons-text {
+  text-align: left;
+}
+.form-footer-label {
+  text-align: left;
 }
 
 @media screen and (min-width: 1158px) {
   .page-footer {
     padding: 100px 0;
   }
-  .container.container-footer-icons {
-    display: flex;
-    align-items: baseline;
-    gap: 0;
-    row-gap: 0;
-    flex-wrap: nowrap;
-    padding-left: 0;
-    padding-right: 0;
-    max-width: 1158px;
-    margin: 0 auto;
-  }
-
-  .our-team-icons {
-    display: flex;
-  }
-
-  .div-one {
-    margin-right: 120px;
-  }
-
-  .subscribe-footer {
-    margin-left: 0;
-    width: 453px;
-    height: 80px;
-  }
-
-  .subscribe-container {
-    gap: 24px;
-  }
-
-  .footer-input {
-    width: 264px;
+  .footer-icons {
+    margin-right: 80px;
+    margin-left: 120px;
   }
 }
-/* ==================modal========= */
+.container.container-footer-icons {
+  display: flex;
+  align-items: baseline;
+  gap: 0;
+  row-gap: 0;
+  flex-wrap: nowrap;
+  padding-left: 0;
+  padding-right: 0;
+  max-width: 1158px;
+  margin: 0 auto;
+  /* padding-left: 108px;
+  padding-right: 108px; */
+}
+
+.our-team-icons {
+  display: flex;
+}
+
+.subscribe-footer {
+  margin-left: 0;
+  width: 453px;
+  height: 80px;
+}
+
+.subscribe-container {
+  gap: 24px;
+}
+
+.footer-input {
+  width: 264px;
+}
+
+/* ==================modal=========== */
 .modal-backdrop {
   position: fixed;
   align-items: center;
